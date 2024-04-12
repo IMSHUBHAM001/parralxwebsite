@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  color: black;
+  scroll-behavior: smooth;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-size: 100% auto;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+#sec-1 {
+  background-image: url(nature.jpg);
+  background-attachment: fixed;
+}
+#sec-2 {
+  background-image: url(about.jpg);
+  background-attachment: fixed;
+}
+#sec-3 {
+  background-image: url(contact.jpg);
+  background-attachment: fixed;
+}
+#sec-4 {
+  background-image: url(services.jpg);
+  background-attachment: fixed;
+}
